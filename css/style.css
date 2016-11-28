@@ -62,15 +62,53 @@ table {
         text-transform: uppercase;
         padding: 15px 14px;
         text-align: center; }
-        .topo .menu ul li a:hover {
+        .topo .menu ul li a:hover, .topo .menu ul li a :active, .topo .menu ul li a :focus {
           background-color: #ed1951;
           color: #ffffff;
           text-decoration: none; }
-        .topo .menu ul li a:active {
-          background-color: #ed1951;
-          color: #ffffff;
-          text-decoration: none; }
-        .topo .menu ul li a:focus {
-          background-color: #ed1951;
-          color: #ffffff;
-          text-decoration: none; }
+
+.submenu ul li {
+  display: inline-block;
+  padding: 20px 25px; }
+  .submenu ul li a {
+    text-transform: uppercase;
+    color: #9e9e9e; }
+    .submenu ul li a span {
+      font-size: 0.8em; }
+
+.search {
+  margin-top: 20px; }
+  .search button {
+    background-image: url(../img/search.png);
+    background-color: #ffffff;
+    border: none;
+    padding: 15px;
+    background-repeat: no-repeat; }
+  .search input {
+    border-radius: 20px;
+    border: 1px solid #a5a5a5; }
+
+.banner {
+  margin-bottom: 5em; }
+  .banner img {
+    width: 100%; }
+  .banner .bannerTitle {
+    position: absolute;
+    margin-top: -20rem;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 20px 0; }
+    .banner .bannerTitle h2 {
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+      font-size: 2em; }
+
+.content p {
+  color: #9e9e9e;
+  font-size: 1.25em; }
+
+.content h3 {
+  color: #ed1951;
+  font-size: 1.8em;
+  margin-top: 25px; }

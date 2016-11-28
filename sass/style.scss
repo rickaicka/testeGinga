@@ -78,17 +78,7 @@ table {
                     text-transform: uppercase;
                     padding: 15px 14px;
                     text-align: center;
-                    &:hover{
-                        background-color: $rosa;
-                        color: $branco;
-                        text-decoration: none;
-                    }
-                    &:active{
-                        background-color: $rosa;
-                        color: $branco;
-                        text-decoration: none;
-                    }
-                    &:focus{
+                    &:hover, :active, :focus{
                         background-color: $rosa;
                         color: $branco;
                         text-decoration: none;
@@ -96,5 +86,64 @@ table {
                 }
             }
         }
+    }
+}
+.submenu{
+    & ul{
+        & li{
+            display: inline-block;
+            padding: 20px 25px;
+            & a{
+                text-transform: uppercase;
+                color: $fontCinzaClaro;
+                & span{
+                    font-size: 0.8em;
+                }
+            }
+        }
+    }
+}
+.search{
+    margin-top: 20px;
+    & button{
+        background-image: url(../img/search.png);
+        background-color: $branco;
+        border:none;
+        padding: 15px;
+        background-repeat: no-repeat;
+    }
+    & input{
+        border-radius: 20px;
+        border:1px solid $cinzaEscuro;
+    }
+}
+.banner{
+    margin-bottom: 5em;
+    & img{
+        width: 100%;
+    }
+    & .bannerTitle{
+        position: absolute;
+        margin-top: -20rem;
+        border: 2px solid $branco;
+        border-radius: 5px;
+        padding: 20px 0;
+        & h2{
+            text-align: center;
+            text-transform: uppercase;
+            color: $branco;
+            font-size: 2em;
+        }
+    }
+}
+.content{
+    & p{
+        color: $fontCinzaClaro;
+        font-size: 1.25em;
+    }
+    & h3{
+        color: $rosa;
+        font-size: 1.8em;
+        margin-top: 25px;
     }
 }
