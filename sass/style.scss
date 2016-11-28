@@ -197,3 +197,65 @@ table {
     background-color: $cinzaClaro;
     margin-top: 25px;
 }
+.siteMap{
+    & .colunas{
+        margin-top: 25px;
+        & li{
+            margin-bottom: 15px;
+        }
+        & h4{
+            text-transform: uppercase;
+            color: $fontCinzaEscuro;
+            margin-bottom: 10px;
+        }
+        & a{
+           color: $fontCinzaClaro;
+        }
+    }
+    & .social{
+        & h4{
+            text-transform: uppercase;
+            color: $fontCinzaEscuro;
+            margin-bottom: 10px;
+            margin-top: 25px;
+        }
+        & li{
+            display: inline-block;
+            margin-right: 10px;
+            margin-top: 25px;
+            & i{
+
+                padding: 10px 0;
+                width: 45px;
+                border-radius: 50%;
+                color: $fontCinzaClaro;
+                font-size: 1.2em;
+                border: 2px solid $fontCinzaClaro;
+                text-align: center;
+                &:hover{
+                    color: $azul;
+                    border: 2px solid $azul;
+                }
+            }
+        }
+    }
+}
+footer{
+    background-color: $cinzaClaro;
+    height: auto;
+    margin-top: 25px;
+    & ul{
+        & li{
+            display: inline-block;
+            margin: 80px;
+            & h4{
+                text-transform: uppercase;
+                color: $fontCinzaEscuro;
+            }
+        }
+    }
+    & p{
+        color: $fontCinzaClaro;
+        font-size: 0.9em;
+    }
+}
