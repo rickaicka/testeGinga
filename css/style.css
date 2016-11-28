@@ -51,7 +51,20 @@ table {
     display: block !important;
     background-color: #a5a5a5; }
   .slicknav_btn, .slicknav_nav {
-    background-color: #a5a5a5; } }
+    background-color: #a5a5a5; }
+  .bannerTitle {
+    border: none !important;
+    margin-top: 1rem !important;
+    margin-left: 1.25em; }
+    .bannerTitle h2 {
+      font-size: 0.8em !important;
+      color: #ed1951 !important; }
+  .content .passos:nth-child(1) {
+    margin-left: 0 !important; }
+  footer ul li {
+    margin: 20px auto !important; }
+  footer > div.row > div {
+    margin-bottom: 15px !important; } }
 
 .topo {
   background-color: #f1f2f2;

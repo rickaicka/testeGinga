@@ -73,6 +73,35 @@ table {
     .slicknav_btn, .slicknav_nav{
         background-color: $cinzaEscuro;
     }
+
+    .bannerTitle{
+        border:none !important;
+        margin-top: 1rem !important;
+        margin-left: 1.25em;
+        & h2{
+            font-size: 0.8em !important;
+            color: $rosa !important;
+        }
+    }
+
+    .content{
+        & .passos{
+            &:nth-child(1){
+                margin-left: 0!important;
+            }
+        }
+    }
+
+    footer{
+        & ul {
+            & li{
+                margin: 20px auto!important;
+            }
+        }
+        & >div.row >div{
+            margin-bottom: 15px !important;
+        }
+    }
 }
 
 
