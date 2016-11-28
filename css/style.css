@@ -44,6 +44,15 @@ table {
   border-spacing: 0; }
 
 /*FIM RESET*/
+@media screen and (max-width: 40em) {
+  .topo .menu {
+    display: none; }
+  .slicknav_menu {
+    display: block !important;
+    background-color: #a5a5a5; }
+  .slicknav_btn, .slicknav_nav {
+    background-color: #a5a5a5; } }
+
 .topo {
   background-color: #f1f2f2;
   padding: 15px 0; }
@@ -66,6 +75,9 @@ table {
           background-color: #ed1951;
           color: #ffffff;
           text-decoration: none; }
+
+.slicknav_menu {
+  display: none; }
 
 .submenu ul li {
   display: inline-block;
