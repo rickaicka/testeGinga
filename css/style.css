@@ -217,7 +217,7 @@ footer {
   margin-top: 25px; }
   footer ul li {
     display: inline-block;
-    margin: 80px; }
+    margin: 60px 20px 40px 0; }
     footer ul li h4 {
       text-transform: uppercase;
       color: #595959; }
