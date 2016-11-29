@@ -44,6 +44,12 @@ table {
   border-spacing: 0; }
 
 /*FIM RESET*/
+@media screen and (max-width: 1050px) and (min-width: 42em) {
+  .submenu ul li {
+    padding: 20px 17px !important; }
+  .bannerTitle {
+    margin-top: -11rem !important; } }
+
 @media screen and (max-width: 40em) {
   .topo .menu {
     display: none; }
@@ -141,7 +147,7 @@ table {
 .content ul .passos {
   display: inline-block;
   margin-top: 25px;
-  margin-right: 25px; }
+  margin-right: 10px !important; }
   .content ul .passos span {
     color: #388dc0;
     font-weight: "700";
