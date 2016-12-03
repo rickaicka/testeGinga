@@ -70,7 +70,9 @@ table {
   footer ul li {
     margin: 20px auto !important; }
   footer > div.row > div {
-    margin-bottom: 15px !important; } }
+    margin-bottom: 15px !important; }
+  .emkt footer .copyright p {
+    text-align: justify; } }
 
 .topo {
   background-color: #f1f2f2;
@@ -230,3 +232,90 @@ footer {
   footer p {
     color: #9e9e9e;
     font-size: 0.9em; }
+
+.emkt {
+  background-color: #f5f5f5;
+  padding: 5%; }
+  .emkt .topoEmkt {
+    background-color: #007aba;
+    padding-top: 30px;
+    padding-bottom: 20px; }
+    .emkt .topoEmkt h1 {
+      font-size: 1.3em !important;
+      color: #ffffff !important; }
+    .emkt .topoEmkt img {
+      margin: 0 auto; }
+  .emkt .img {
+    padding: 0; }
+    .emkt .img img {
+      margin: 0 auto;
+      padding: 0;
+      width: 100%; }
+  .emkt .content {
+    background-color: #ffffff;
+    padding: 45px 30px; }
+    .emkt .content p {
+      font-weight: "400";
+      font-size: 0.9em;
+      text-align: justify; }
+      .emkt .content p span {
+        font-weight: "700";
+        color: #000000; }
+    .emkt .content .btn-primary {
+      border-radius: 0;
+      font-size: 2em;
+      background-color: #33aae1 !important;
+      border: none;
+      background-image: none;
+      padding: 10px 40px;
+      margin: 10px auto;
+      margin-bottom: 20px; }
+  .emkt footer {
+    background-color: transparent; }
+    .emkt footer .wrapFooter .logo {
+      background-color: #ffffff;
+      padding-top: 30px; }
+      .emkt footer .wrapFooter .logo img {
+        margin: 0 auto;
+        height: 40px; }
+    .emkt footer .wrapFooter .slogan {
+      background-color: #ffffff; }
+      .emkt footer .wrapFooter .slogan p {
+        color: #388dc0;
+        font-size: 0.7em;
+        padding-top: 5px; }
+    .emkt footer .wrapFooter .social {
+      background-color: #ffffff; }
+      .emkt footer .wrapFooter .social ul {
+        margin-top: 20px; }
+        .emkt footer .wrapFooter .social ul li:nth-child(1) {
+          margin-top: 0; }
+          .emkt footer .wrapFooter .social ul li:nth-child(1) i {
+            color: #ffffff;
+            padding: 10px 14px;
+            background-color: #3b5998;
+            border-radius: 50%; }
+        .emkt footer .wrapFooter .social ul li:nth-child(2) {
+          margin-top: 0; }
+          .emkt footer .wrapFooter .social ul li:nth-child(2) i {
+            color: #ffffff;
+            padding: 10px 11px;
+            background-color: #dc0d0d;
+            border-radius: 50%; }
+        .emkt footer .wrapFooter .social ul li:nth-child(3) {
+          margin-top: 0; }
+          .emkt footer .wrapFooter .social ul li:nth-child(3) i {
+            color: #ffffff;
+            padding: 10px 12px;
+            background-color: #007bb6;
+            border-radius: 50%; }
+        .emkt footer .wrapFooter .social ul li:nth-child(4) {
+          margin-top: 0; }
+          .emkt footer .wrapFooter .social ul li:nth-child(4) i {
+            color: #ffffff;
+            padding: 10px 12px;
+            background-color: #00aced;
+            border-radius: 50%; }
+    .emkt footer .wrapFooter .copyright {
+      background-color: #ffffff;
+      padding-bottom: 30px; }

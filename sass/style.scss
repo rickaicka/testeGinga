@@ -114,6 +114,16 @@ table {
             margin-bottom: 15px !important;
         }
     }
+
+    .emkt{
+        & footer{
+            & .copyright{
+                & p{
+                    text-align: justify;
+                }
+            }
+        }
+    }
 }
 
 
@@ -319,5 +329,120 @@ footer{
     & p{
         color: $fontCinzaClaro;
         font-size: 0.9em;
+    }
+}
+
+.emkt{
+    background-color: #f5f5f5;
+    padding: 5%;
+    & .topoEmkt{
+        background-color: #007aba;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        & h1{
+            font-size: 1.3em !important;
+            color: $branco !important;
+        }
+        & img{
+            margin: 0 auto;
+        }
+    }
+    & .img{
+            padding: 0;
+        & img{
+            margin: 0 auto;
+            padding: 0;
+            width: 100%;
+        }
+    }
+    & .content{
+        background-color: $branco;
+        padding: 45px 30px;
+        & p{
+            font-weight: $fontRegular;
+            font-size: 0.9em;
+            text-align: justify;
+            & span{
+                font-weight: $fontBold;
+                color: #000000;
+            }
+        }
+        & .btn-primary{
+            border-radius: 0;
+            font-size: 2em;
+            background-color: #33aae1!important;
+            border: none;
+            background-image: none;
+            padding: 10px 40px;
+            margin: 10px auto;
+            margin-bottom: 20px;
+        }
+    }
+    & footer{
+        background-color: transparent;
+        & .wrapFooter{
+            & .logo{
+                background-color: $branco;
+                padding-top: 30px;
+                & img{
+                    margin: 0 auto;
+                    height: 40px;
+                }
+            }
+            & .slogan{
+                background-color: $branco;
+                & p{
+                    color: $azul;
+                    font-size: 0.7em;
+                    padding-top: 5px;
+                }
+            }
+            & .social{
+                background-color: $branco;
+                & ul{
+                margin-top: 20px;
+                    & li:nth-child(1){
+                        margin-top: 0;
+                        & i{
+                            color: $branco;
+                            padding: 10px 14px;
+                            background-color: #3b5998;
+                            border-radius: 50%;
+                        }
+                    }
+                    & li:nth-child(2){
+                        margin-top: 0;
+                        & i{
+                            color: $branco;
+                            padding: 10px 11px;
+                            background-color: #dc0d0d;
+                            border-radius: 50%;
+                        }
+                    }
+                    & li:nth-child(3){
+                        margin-top: 0;
+                        & i{
+                            color: $branco;
+                            padding: 10px 12px;
+                            background-color: #007bb6;
+                            border-radius: 50%;
+                        }
+                    }
+                    & li:nth-child(4){
+                        margin-top: 0;
+                        & i{
+                            color: $branco;
+                            padding: 10px 12px;
+                            background-color: #00aced;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+            }
+            & .copyright{
+                background-color: $branco;
+                padding-bottom: 30px
+            }
+        }
     }
 }
